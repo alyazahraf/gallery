@@ -1,79 +1,115 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  /><link
+    href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    rel="stylesheet"
+  />
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cbf4afc6ef.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Gallery View</title>
   </head>
 
   <body>
     <header>
-        <div class="name">
-            <h1>Logo</h1>
-          </div>
-          <nav>
-            <input type="checkbox" id="check" />
-            <label for="check" class="checkbtn">
-              <span class="line"></span>
-              <span class="line"></span>
-              <span class="line"></span>
-            </label>
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">History</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Gallery</a></li>
-            </ul>
-            <div class="search">
-                <input type="text" placeholder="Search" />
-                <button type="submit">Search</button>
-          </nav>
+      <div class="name">
+        <h1>LOGO</h1>
+      </div>
+
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </label>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">History</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Gallery</a></li>
+          <li>
+            <a href=""><i class="fa fa-search"></i></a>
+          </li>
+        </ul>
+        <!-- <div class="search">
+          <input type="text" placeholder="Search" />
+          <button type="submit">Search</button>
+        </div> -->
+      </nav>
     </header>
 
-    <section>
-      <h2>OUR GALLERY</h2>
-      <h4>This project is created to help business</h4>
-      <menu>
+    <section id="home">
+      <div id="content">
+        <h1>OUR GALLERY</h1>
+        <h4>This project is created to help business</h4>
+      </div>
+
+      <div id="menu">
         <ul>
           <li><a href="">CORPORATE APPAREL</a></li>
           <li><a href="">PERSONAL/FAMILY</a></li>
           <li><a href="">SCHOOL</a></li>
           <li><a href="">FASHION</a></li>
         </ul>
-    </section>
-
-    <section>
-        <div class="gallery-item-1">
-          <img src="https://picsum.photos/200/300" alt="Image 1" />
-        </div>
-        <div class="gallery-item-2">
-          <img src="https://picsum.photos/200/300" alt="Image 2" />
-        </div>
-        <div class="gallery-item-3">
-          <img src="https://picsum.photos/200/300" alt="Image 3" />
-        </div>
-        <div class="gallery-item-4">
-          <img src="https://picsum.photos/200/300" alt="Image 4" />
-        </div>
-        <div class="gallery-item-5">
-          <img src="https://picsum.photos/200/300" alt="Image 5" />
-        </div>
-        <div class="gallery-item-6">
-          <img src="https://picsum.photos/200/300" alt="Image 6" />
-        </div>
-        <div class="gallery-item-7">
-          <img src="https://picsum.photos/200/300" alt="Image 7" />
-        </div>
-        <div class="gallery-item-8">
-          <img src="https://picsum.photos/200/300" alt="Image 8" />
-        </div>
-        <div class="gallery-item-9">
-          <img src="https://picsum.photos/200/300" alt="Image 9" />
-        </div>
-        <div class="gallery-item-10">
-          <img src="https://picsum.photos/200/300" alt="Image 10" />
-        </div>
       </div>
+
+      <div class="gallery-item-1">
+        <img src="https://picsum.photos/200/300" alt="Image 1" />
+        <h3>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+          unde sunt adipisci repellat soluta sit, natus velit beatae incidunt
+          laboriosam, similique dolorem molestias blanditiis hic earum placeat
+          nostrum minima aliquam?
+        </h3>
+        <h4>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
+          officia laboriosam fugit molestias asperiores optio? Numquam harum,
+          cum eos voluptate natus distinctio, deleniti modi molestias aut non
+          corporis a dolor.
+        </h4>
+      </div>
+      <div class="gallery-item-2">
+        <img src="https://picsum.photos/200/300" alt="Image 2" />
+      </div>
+      <div class="gallery-item-3">
+        <img src="https://picsum.photos/200/300" alt="Image 3" />
+      </div>
+      <div class="gallery-item-4">
+        <img src="https://picsum.photos/200/300" alt="Image 4" />
+      </div>
+      <div class="gallery-item-5">
+        <img src="https://picsum.photos/200/300" alt="Image 5" />
+      </div>
+      <div class="gallery-item-6">
+        <img src="https://picsum.photos/200/300" alt="Image 6" />
+      </div>
+      <div class="gallery-item-7">
+        <img src="https://picsum.photos/200/300" alt="Image 7" />
+      </div>
+      <div class="gallery-item-8">
+        <img src="https://picsum.photos/200/300" alt="Image 8" />
+      </div>
+      <div class="gallery-item-9">
+        <img src="https://picsum.photos/200/300" alt="Image 9" />
+      </div>
+      <div class="gallery-item-10">
+        <img src="https://picsum.photos/200/300" alt="Image 10" />
+      </div>
+
+      <button>
+        <a href="">LOAD MORE</a>
+      </button>
     </section>
   </body>
 </html>
